@@ -1,42 +1,141 @@
 html {
-  color:rgb(110, 16, 16);;
+  color: #12363b;
+  background-color: #f4d8cd;
+  font-size: 19px;
 }
-.container {
-  width: 960px;
-  height: auto;
+.container-t {
   display: flex;
-  flex-flow: row wrap;
 
-  border: 4px solid salmon;
-  justify-content: space-evenly;
-  align-items: center;
-
+  flex-direction: row;
+  text-align: center;
+  width: 960px;
+}
+.container-b {
+  color: greenyellow;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid hotpink;
 }
 .box {
-  /*width: 100px;
-  height: 50px;*/
-  border: 3px solid black;
-  
+  border: 2px solid black;
+  border-collapse: collapse;
 }
-.root {
- 
+section-T {
+  padding: 10px;
+  flex: 1;
+  border: 2px solid;
+  justify-content: space-evenly;
+  /*margin: 0 auto;*/
+}
+section-B {
+  color: #fd6777;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex: 1 1 100%;
+}
+
+/*NAV BAR STARTS BELOW*/
+
+ul li {
+  color: #f5f104;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  margin: 25px;
+  padding: 10px;
+}
+nav {
+  margin: 0 auto;
+}
+ul li a:visited {
+  color: #ffff00;
+  list-style-type: none;
+}
+ul li a:hover {
+  background-color: black;
+  color: #f5f104;
+}
+
+ul li a:active {
+  color: white;
+}
+
+.home {
+  background-color: red;
+  border: 2px solid black;
+}
+.about {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.contact {
+  background-color: goldenrod;
+  border: 2px solid black;
+}
+.serv {
+  background-color: hotpink;
+  border: 2px solid black;
+}
+.prices {
+  background-color: green;
+  border: 2px solid black;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+}
+ul li a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+}
+/*NAV BAR ENDS ABOVE*/
+.box {
+  padding: 10px;
+}
+.root-t,
+.root-b {
   background-color: red;
 }
-.sacral {
+.sacral-t,
+.sacral-b {
   background-color: orange;
 }
-.solar {
+.solar-t,
+.solar-b {
   background-color: yellow;
 }
-.throath {
-  background-color: green;
+
+.heart-t,
+.heart-b {
+  background-color: rgb(35, 139, 35);
 }
-.thirdI {
-  background-color: blue;
+.troath-t,
+.troath-b {
+  background-color: darkblue;
 }
-.crown {
-  background-color: blueviolet;
+.thirdI-b {
+  background-color: indigo;
 }
-.crownstar {
-  background-color:magenta
+.crown-t,
+.crown-b {
+  background-color: rgb(212, 178, 245);
+}
+.crownstar-t,
+.crownstar-b {
+  background-color: #fff;
+}
+footer {color: rgba(128, 128, 128, 0.644);
+  text-align: center;
+  background-color: rgba(169, 169, 169, 0.925);
+  margin: 5px auto;
+  padding: 5px;
+  border: 2px solid #ffa500;
+  /*width: 100%;*/
 }
