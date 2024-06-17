@@ -1,0 +1,124 @@
+html {
+  background-color: antiquewhite;
+  color: cadetblue;
+}
+.mega {
+  background-color: salmon;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+}
+/*nav ul li a bar stylin starts below  line5*/
+nav {
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 15px;
+  flex: 1 1 80%;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.licont {
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 50px;
+  border: 1px solid blue;
+  padding: 10px;
+}
+ul li a:visited {
+  color: rgb(241, 129, 195);
+  list-style-type: none;
+}
+ul li a:hover {
+  background-color: black;
+  color: #f5f104;
+}
+
+ul li a:active {
+  color: white;
+}
+ul li {
+  flex: 1 1 95%;
+  border: 1px solid;
+  padding: 15px;
+  margin: 5px;
+}
+.home {  background-color: red;
+  border: 2px solid rgb(248, 6, 6);
+}
+
+.about {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.contact {
+  background-color: goldenrod;
+  border: 2px solid black;
+}
+.serv {
+  background-color: hotpink;
+  color: orangered;
+  border: 2px solid black;
+}
+.prices {
+  background-color: green;
+  border: 2px solid black;
+}
+/*section-t/-c STARTS BELOW THIS LINE */
+.box1 {
+  background-color: red;
+
+  color: purple;
+  flex: 1 1;
+}
+.box2  {
+  background-color: orange;
+  flex: 1;
+}
+.box3 {
+  background-color: yellow;
+  flex: 1;
+}
+.box4 {
+  flex: 1;
+  background-color: rgb(35, 139, 35);
+}
+
+.box5 {
+  flex: 1;
+  background-color: darkblue; 
+}
+.box6 {
+  flex: 1;
+  background-color: indigo;
+}
+.box7 {
+  flex: 1;
+  background-color: purple;
+}
+.box8 {
+  flex: 1;
+  background-color:rgb(255, 255, 255)
+}
+section-t {
+  display: flex;
+  gap: 15px;
+  flex-flow: row wrap;
+  flex:1 1;
+  flex-direction: row;
+border: 2px solid;
+}
+.box {
+  border: 4px solid black;
+  border-collapse:separate;
+  margin: 2px;
+  padding: 10px;
+}
+/*section-t/-c ENDS ABOVE THIS LINE*/
+
+
+
